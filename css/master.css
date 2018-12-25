@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+}
+
+body{
+  font-family: Helvetica;
+  font-size: 14pt;
+  background-image: url("https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+p {
+  padding: 20px;
+}
+
+#wrapper{
+ width: 900px;
+ margin: auto;
+ /*background-color: #ff3333*/
+}
+
+header > h1{
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 30pt;
+  font-family: Courier, Verdana, serif;
+  font-weight: normal;
+  background-color: #252829;
+}
+
+article > ul > li {
+  font-size: 12pt;
+  font-family: Courier;
+  padding-bottom: 10px;
+}
+
+nav{
+  background-color: #cccccc;
+  width: 900px;
+}
+
+nav > a{
+  font-family: Courier, Verdana, serif;
+  font-size: 10pt;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+nav > a:hover{
+  background-color: white;
+}
+
+#refresh:hover{
+  background-color: #dac400
+}
+
+article > img{
+  float: right;
+  margin: 20px;
+}
+
+.newdiv > p {
+  text-align: center;
+  font-family: Courier;
+  font-weight: bold;
+  color: #bb3d00;
+  font-style: oblique;
+
+}
+
+article > p > a {
+  font-weight: bold;
+  color: purple;
+  text-decoration: none;
+}
+
+article > p > a:hover {
+    font-size: 105%;
+    color: black;
+}
+
+#bigimage > p{
+  color: #00c9fd;
+  background-color: #ffffff;
+  font-size: 12pt;
+}
+
+article, #contact{
+background-color: #cccccc;
+}
+
+article{
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article > h1{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Karla', sans-serif;
+  font-size: 25pt;
+}
+
+footer{
+  background-color: #cccccc;
+}
+
+footer > p {
+  color: black;
+  font-size: 12px;
+  height: 150px;
+  float: right;
+}
