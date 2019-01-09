@@ -1,3 +1,5 @@
+
+@media only screen {
 * {
   margin: 0;
 }
@@ -111,6 +113,7 @@ float: left;
   clear: right;
   margin-left: 370px;
   width: 820px;
+  height: 487px;
   padding: 20px;
 }
 
@@ -169,20 +172,25 @@ footer, #contact{
   background-color: #cccccc;
   width: 100%;
 }
-
+@media only screen {
 #contact > table{
-  margin: 20px 0px 0px 850px;
+  margin: 20px 0px 0px 500px;
   padding: 20px;
   font-family: Impact, sans-serif, Verdana;
   font-size: 14pt;
   text-align: center;
-  width: 900px;
+  width: 200px;
+  border-style: solid;
+  }
 }
+@media only screen{
 
 #contact img{
   width: 50px;
   height: 50px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 }
 
 footer{
@@ -195,4 +203,5 @@ footer > p {
   height: 150px;
   width: 860px;
   float: right;
+}
 }
