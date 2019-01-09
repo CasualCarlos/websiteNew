@@ -69,8 +69,9 @@ nav > a:hover{
 }
 
 main{
-  width: 900px;
+  width: 1200px;
   position: center;
+  margin: auto;
 }
 
 #refresh:hover{
@@ -92,27 +93,29 @@ article > img{
 }
 
 .bigleft{
- width: 510px;
+ width: 820px;
  margin-right: 10px;
- float: left;
+ float: right;
 }
 
-.newtext{
-  text-align: center;
-  width: 510px;
-  margin-right: 10px;
-  float: left;
-  position: center;
+.lastarticle img {
 }
 
 .smallright{
 width: 290px;
 margin-left: 10px;
-float: right;
+float: left;
 }
 
 .lastarticle{
-  clear: both;
+  clear: right;
+  margin-left: 370px;
+  width: 820px;
+  padding: 20px;
+}
+
+.lastarticle{
+  text-align: center;
 }
 
 article > p > a {
@@ -168,12 +171,11 @@ footer, #contact{
 }
 
 #contact > table{
-  margin-left: 850px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0px 0px 850px;
   padding: 20px;
   font-family: Impact, sans-serif, Verdana;
   font-size: 14pt;
+  text-align: center;
 }
 
 #contact img{
@@ -182,9 +184,14 @@ footer, #contact{
   margin: 10px;
 }
 
+footer{
+  position: center;
+}
+
 footer > p {
   color: black;
   font-size: 12px;
   height: 150px;
+  width: 860px;
   float: right;
 }
