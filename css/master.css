@@ -12,22 +12,32 @@ p {
   padding: 20px;
 }
 
-#wrapper{
- width: 900px;
- margin: auto;
- /*background-color: #ff3333*/
+#headwrapper{
+  width: 100%;
+  background-color: white;
+
 }
+
 
 header > h1{
   padding-top: 20px;
   padding-left: 5px;
   padding-bottom: 5px;
   padding-right: 5px;
-  color: rgb(255, 255, 255);
+  color: black;
   font-size: 30pt;
   font-family: Courier, Verdana, serif;
   font-weight: normal;
-  background-color: #252829;
+  margin: auto;
+}
+
+.focus {
+ color: #00c9fd;
+ text-decoration: none;
+}
+
+#contact a:hover{
+  color: black;
 }
 
 article > ul > li {
@@ -37,8 +47,9 @@ article > ul > li {
 }
 
 nav{
-  background-color: #cccccc;
   width: 900px;
+  margin: auto;
+  text-align: right;
 }
 
 nav > a{
@@ -54,7 +65,12 @@ nav > a{
 }
 
 nav > a:hover{
-  background-color: white;
+  background-color: #00c9fd;
+}
+
+main{
+  width: 900px;
+  position: center;
 }
 
 #refresh:hover{
@@ -75,6 +91,30 @@ article > img{
 
 }
 
+.bigleft{
+ width: 510px;
+ margin-right: 10px;
+ float: left;
+}
+
+.newtext{
+  text-align: center;
+  width: 510px;
+  margin-right: 10px;
+  float: left;
+  position: center;
+}
+
+.smallright{
+width: 290px;
+margin-left: 10px;
+float: right;
+}
+
+.lastarticle{
+  clear: both;
+}
+
 article > p > a {
   font-weight: bold;
   color: purple;
@@ -86,10 +126,23 @@ article > p > a:hover {
     color: black;
 }
 
+#bigimage {
+  height: 550px;
+  width: 100%;
+  background-image:url(http://i68.tinypic.com/2hnas8h.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 #bigimage > p{
   color: #00c9fd;
   background-color: #ffffff;
   font-size: 12pt;
+  width: 350px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
 }
 
 article, #contact{
@@ -109,8 +162,24 @@ article > h1{
   font-size: 25pt;
 }
 
-footer{
+footer, #contact{
   background-color: #cccccc;
+  width: 100%;
+}
+
+#contact > table{
+  margin-left: 850px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-family: Impact, sans-serif, Verdana;
+  font-size: 14pt;
+}
+
+#contact img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
 }
 
 footer > p {
