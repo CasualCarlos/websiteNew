@@ -1,5 +1,5 @@
+@media screen and (min-width: 1000px){
 
-@media only screen {
 * {
   margin: 0;
 }
@@ -172,7 +172,6 @@ footer, #contact{
   background-color: #cccccc;
   width: 100%;
 }
-@media only screen {
 #contact > table{
   margin: 20px 0px 0px 500px;
   padding: 20px;
@@ -182,16 +181,13 @@ footer, #contact{
   width: 200px;
   border-style: solid;
   }
-}
-@media only screen{
-
 #contact img{
   width: 50px;
   height: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-}
+
 
 footer{
   position: center;
@@ -203,5 +199,5 @@ footer > p {
   height: 150px;
   width: 860px;
   float: right;
-}
+  }
 }
