@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px){
+@media screen and (max-width: 415px){
   * {
     margin: 0;
   }
@@ -95,15 +95,14 @@
 
   .bigleft{
    width: 414px;
-   margin-left: 10px;
-   clear: right;
+
   }
 
   .lastarticle img {
   }
 
   .smallright{
-  width: 290px;
+  width: 400px;
   margin-left: 10px;
   float: left;
   }
@@ -156,7 +155,8 @@
   }
 
   article{
-    border-radius: 10px;
+    text-align: center;
+    border-radius: 2px;
     margin-top: 20px;
     margin-bottom: 20px;
   }

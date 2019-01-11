@@ -95,8 +95,10 @@ article > img{
 }
 
 .bigleft{
- width: 820px;
- margin-right: 10px;
+ width: 712px;
+ margin-left: 10px;
+ padding-left: 20px;
+ padding-right: 80px;
  float: right;
 }
 
