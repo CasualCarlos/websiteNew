@@ -70,7 +70,7 @@
   }
 
   main{
-    width: 1200px;
+    width: 414px;
     position: center;
     margin: auto;
   }
@@ -102,22 +102,24 @@
   }
 
   .smallright{
-  width: 400px;
-  margin-left: 10px;
+  width: 414px;
   float: left;
   }
 
   .lastarticle{
-    clear: right;
-    margin-left: 370px;
+    clear: left;
     margin-top: 10px;
     width: 414px;
     height: 487px;
-    padding: 20px;
   }
 
   .lastarticle{
     text-align: center;
+  }
+
+  .lastarticle > iframe{
+    width: 375px;
+    border-radius: 30px;
   }
 
   article > p > a {
@@ -173,7 +175,7 @@
     width: 100%;
   }
   #contact > table{
-    margin: 20px 0px 0px 500px;
+    margin: 20px 0px 0px 100px;
     padding: 20px;
     font-family: Impact, sans-serif, Verdana;
     font-size: 14pt;
@@ -197,7 +199,8 @@
     color: black;
     font-size: 12px;
     height: 150px;
-    width: 860px;
+    width: 370px;
     float: right;
+    text-align: center;
     }
 }
