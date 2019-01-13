@@ -6,23 +6,42 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/mobilestyle.css">
-    <link rel="function" href="js/function.js">
+    <link rel="function" href="JavaScript/function.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Fortnite PC's are overpriced.</title>
   </head>
   <body>
+
     <script>
-    function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-    x.className += " responsive";
-    } else {
-    x.className = "topnav";
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
     }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
+
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
     </script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="uparrow.png"></button>
     <div id="headwrapper">
     <header>
 <h1>THE GRAFFE'S HOME BASE</h1>
