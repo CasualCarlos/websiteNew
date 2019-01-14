@@ -178,7 +178,7 @@ float: left;
   clear: right;
   margin-left: 370px;
   width: 790px;
-  height: 487px;
+  height: 469px;
   padding: 20px;
 }
 
@@ -260,44 +260,41 @@ article > h1{
   font-size: 25pt;
 }
 
-footer, #contact{
-  background-color: #333;
-  width: 100%;
-}
+
 #contact > table{
-  margin: 20px 0px 0px 0px;
-  padding: 20px;
-  font-size: 14pt;
-  text-align: center;
-  width: 20px;
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+  width: 2000px;
+  height: 10px;
+  background-color: #4CAF50;
   }
 
   #follow{
     float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
     padding: 20px 17px;
+    height: 50px;
+  }
+
+  #follow > img{
+    height: 60px;
+  }
+
+  #follow>img:hover{
+    background-color: #f2f2f2;
     border-radius: 10px;
-    background-color:
-    font-size: 17px;
   }
 
-  #follow:hover{
-      background-color: #ddd;
-      color: black;
-  }
 
-footer{
-  position: center;
-}
 
 footer > p {
-  color: black;
+  color: #f2f2f2;
   font-size: 12px;
-  height: 150px;
-  width: 860px;
-  float: right;
+  height: 50px;
+  text-align: center;
+  width: 2000px;
+  background-color: #333;
+
   }
 }

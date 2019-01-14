@@ -26,12 +26,12 @@
   #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 30px from the right */
+    bottom: 7px; /* Place the button at the bottom of the page */
+    right: 19px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 35px;
     outline: none; /* Remove outline */
     background-color: #4CAF50; /* Set a background color */
     color: #f2f2f2; /* Text color */
@@ -153,12 +153,9 @@
 
   main{
     width: 414px;
+    height: 1100px;
     position: center;
     margin: auto;
-  }
-
-  #refresh:hover{
-    background-color: #dac400
   }
 
   article > img{
@@ -177,11 +174,9 @@
 
   .bigleft{
    width: 414px;
-
+   height: 230px;
   }
 
-  .lastarticle img {
-  }
 
   .smallright{
   width: 414px;
@@ -201,7 +196,6 @@
 
   .lastarticle > iframe{
     width: 375px;
-    border-radius: 30px;
   }
 
   article > p > a {
@@ -257,47 +251,13 @@
     font-family: 'Karla', sans-serif;
     font-size: 25pt;
   }
-
-  footer, #contact{
-    background-color: #cccccc;
-    width: 100%;
-  }
-  #contact > table{
-    margin: 20px 0px 0px 0px;
-    padding: 20px;
-    font-size: 14pt;
-    text-align: center;
-    width: 20px;
-    }
-
-    #follow{
-      float: left;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      text-decoration: none;
-      padding: 20px 17px;
-      margin-left: 125px;
-      border-radius: 10px;
-      background-color:
-    }
-
-    #follow:hover{
-        background-color: #ddd;
-        color: black;
-    }
-
-
-  footer{
-    position: center;
-  }
-
   footer > p {
-    color: black;
-    font-size: 12px;
-    height: 150px;
-    width: 370px;
-    float: right;
+    color: #f2f2f2;
+    font-size: 11px;
+    margin-top: 200px;
+    height: 30px;
+    width: 374px;
+    background-color: #333;
     text-align: center;
     }
 }
