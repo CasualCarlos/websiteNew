@@ -4,7 +4,7 @@
   }
 
   body{
-    font-family: Helvetica;
+    font-family: 'Roboto', 'Karla', serif;
     font-size: 14pt;
     background-image: url("https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   }
@@ -58,6 +58,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Roboto', 'Karla', serif;
     font-size: 17px;
   }
 
@@ -108,9 +109,9 @@
     padding-bottom: 5px;
     padding-right: 5px;
     color: black;
-    font-size: 30pt;
-    font-family: Courier, Verdana, serif;
-    font-weight: normal;
+    font-size: 22pt;
+    font-weight: 300;
+    font-family: 'Roboto', 'Karla', serif;
     margin: auto;
   }
 
@@ -125,31 +126,13 @@
 
   article > ul > li {
     font-size: 12pt;
-    font-family: Courier;
+    font-family: 'Roboto', 'Karla', serif;
     padding-bottom: 10px;
   }
 
-  nav{
-    width: 414px;
-    margin: auto;
-    text-align: right;
-  }
-
-  nav > a{
-    font-family: Courier, Verdana, serif;
-    font-size: 10pt;
-    color: black;
-    text-decoration: none;
-    display: inline-block;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-  }
-
-  nav > a:hover{
-    background-color: #00c9fd;
-  }
+article > ul {
+  list-style: none;
+}
 
   main{
     width: 414px;
@@ -161,15 +144,6 @@
   article > img{
     float: right;
     margin: 20px;
-  }
-
-  .newdiv > p {
-    text-align: center;
-    font-family: Courier;
-    font-weight: bold;
-    color: #bb3d00;
-    font-style: oblique;
-
   }
 
   .bigleft{
@@ -187,7 +161,7 @@
     clear: left;
     margin-top: 10px;
     width: 414px;
-    height: 487px;
+    height: 439px;
   }
 
   .lastarticle{
@@ -196,11 +170,13 @@
 
   .lastarticle > iframe{
     width: 375px;
+    height: 200px;
   }
 
   article > p > a {
-    font-weight: bold;
+    font-family: 'Roboto', 'Karla', serif;
     color: purple;
+    font-weight: normal;
     text-decoration: none;
   }
 
@@ -210,7 +186,7 @@
   }
 
   #bigimage {
-    height: 550px;
+    height: 630px;
     width: 414px;
     background-image:url(http://i68.tinypic.com/2hnas8h.png);
     background-size: cover;
@@ -220,13 +196,14 @@
 
 
   #bigimage > p{
+    font-family: 'Roboto', 'Karla', serif;
     color: #00c9fd;
     background-color: #ffffff;
-    font-weight: bold;
     font-size: 12pt;
+    font-weight: 400;
     text-align: center;
     width: 150px;
-    height: 8px;
+    height: 19px;
     position: absolute;
     bottom: 20px;
     border-bottom-right-radius: 5px;
@@ -247,14 +224,15 @@
 
   article > h1{
     text-align: center;
+    fotn-weight: 200;
     padding: 10px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', 'Karla', sans-serif;
     font-size: 25pt;
   }
   footer > p {
     color: #f2f2f2;
     font-size: 11px;
-    margin-top: 200px;
+    margin-top: 160px;
     height: 30px;
     width: 374px;
     background-color: #333;
