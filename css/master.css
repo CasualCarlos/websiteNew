@@ -20,6 +20,17 @@ p {
 
 }
 
+#myVideoTwee{
+  position: absolute;
+  left: 165px;
+  margin-top: 19.5px;
+  width: 196px;
+  height: 475px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #4CAF50;
+}
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: absolute;
@@ -152,6 +163,7 @@ article > img{
 }
 
 .bigleft{
+ background-image: linear-gradient(to bottom right, #5d5555, #333);
  width: 712px;
  font-family: 'Roboto', Verdana, sans-serif;
  margin-left: 10px;
@@ -161,13 +173,25 @@ article > img{
  float: right;
 }
 
+.bigleft > h1 {
+  text-align: center;
+  margin-left: 36px;
+}
+
 .bigleft > ul{
   list-style: none;
 }
 
+.smallright > p {
+  font-weight: 350;
+  margin-left: 25px;
+}
+
 .smallright{
-width: 290px;
+    background-image: linear-gradient(to bottom right, #5d5555, #333);
+width: 305px;
 padding-right: 30px;
+margin-left: 9px;
 font-family: 'Roboto';
 font-weight: 390;
 text-align: center;
@@ -175,7 +199,15 @@ float: left;
 font-size: 13.8pt;
 }
 
+.smallright > h1 {
+  width: 315px;
+  background-color: #4CAF50;
+  border-top-right-radius: 10px;
+}
+
+
 .lastarticle{
+  background-image: linear-gradient(to bottom right, #5d5555, #333);
   clear: right;
   margin-left: 370px;
   width: 790px;
