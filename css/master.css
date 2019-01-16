@@ -290,7 +290,9 @@ article > h1{
     border-radius: 10px;
   }
 
-
+#lastarticle > iframe{
+  border-radius: 10px;
+}
 
 footer > p {
   color: #f2f2f2;
