@@ -22,10 +22,10 @@ p {
 
 #myVideoTwee{
   position: absolute;
-  left: 165px;
+  left: 115px;
   margin-top: 19.5px;
-  width: 196px;
-  height: 475px;
+  width: 276.5px;
+  height: 472px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   background-color: #4CAF50;
@@ -163,19 +163,18 @@ article > img{
 }
 
 .bigleft{
- background-image: linear-gradient(to bottom right, #5d5555, #333);
- width: 712px;
+     background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
+ width: 832px;
  font-family: 'Roboto', Verdana, sans-serif;
- margin-left: 10px;
- padding-left: 40px;
- padding-right: 80px;
  text-align: center;
  float: right;
 }
 
 .bigleft > h1 {
-  text-align: center;
-  margin-left: 36px;
+  width: 812px;
+  background-color: #4CAF50;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .bigleft > ul{
@@ -188,7 +187,7 @@ article > img{
 }
 
 .smallright{
-    background-image: linear-gradient(to bottom right, #5d5555, #333);
+background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
 width: 305px;
 padding-right: 30px;
 margin-left: 9px;
@@ -207,16 +206,22 @@ font-size: 13.8pt;
 
 
 .lastarticle{
-  background-image: linear-gradient(to bottom right, #5d5555, #333);
+      background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
   clear: right;
   margin-left: 370px;
-  width: 790px;
-  height: 469px;
-  padding: 20px;
+  width: 829px;
+  height: 506px;
 }
 
 .lastarticle{
   text-align: center;
+}
+
+.lastarticle > h1 {
+  width: 810px;
+  background-color: #4CAF50;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 #myBtn > img{
