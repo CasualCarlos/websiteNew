@@ -21,13 +21,14 @@ p {
 }
 
 #myVideoTwee{
-  position: absolute;
-  left: 115px;
-  margin-top: 19.5px;
-  width: 276.5px;
-  height: 472px;
+  margin-top: 19px;
+  margin-left: 39px;
+  width: 293px;
+  height: 422px;
+  border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: #4CAF50;
 }
 
@@ -41,24 +42,6 @@ p {
   border-radius: 10px;
   background-color: #4CAF50;
   border-style: solid;
-}
-
-/* Style the button used to pause/play the video */
-#mySNDBtn {
-  font-family: 'Roboto', Verdana, sans-serif;
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center; /*CONTINUE HERE, IK PROBEER DE PAUZE BUTTON BIJ HET VIDEOTJE TE KRIJGEN*/
-  padding: 14px 13.8px;
-  text-decoration: none;
-  background-color: #333;
-  font-size: 17px;
-}
-
-#mySNDBtn:hover {
-  background: #ddd;
-  color: black;
 }
 
 header > h1{
@@ -163,7 +146,8 @@ article > img{
 }
 
 .bigleft{
-     background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
+ font-weight: 390;
+ background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
  width: 832px;
  font-family: 'Roboto', Verdana, sans-serif;
  text-align: center;
@@ -188,29 +172,32 @@ article > img{
 
 .smallright{
 background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
-width: 305px;
+width: 265px;
+height: 374px;
+float:left;
+margin-left: 39px;
 padding-right: 30px;
-margin-left: 9px;
 font-family: 'Roboto';
 font-weight: 390;
 text-align: center;
-float: left;
 font-size: 13.8pt;
 }
 
 .smallright > h1 {
-  width: 315px;
+  width: 275px;
   background-color: #4CAF50;
   border-top-right-radius: 10px;
 }
 
 
 .lastarticle{
-      background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
+  background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
+  font-weight: 390;
   clear: right;
   margin-left: 370px;
+  margin-top: -200px;
   width: 829px;
-  height: 506px;
+  height: 595px;
 }
 
 .lastarticle{
@@ -219,6 +206,7 @@ font-size: 13.8pt;
 
 .lastarticle > h1 {
   width: 810px;
+  clear: right;
   background-color: #4CAF50;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -246,7 +234,8 @@ font-size: 13.8pt;
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #4CAF50; /* Add a dark-grey background on hover */
+  opacity: 0.7;
 }
 
 article > p > a {
@@ -334,9 +323,10 @@ article > h1{
 footer > p {
   color: #f2f2f2;
   font-size: 12px;
-  height: 50px;
+  margin-top: 50px;
+  height: 30px;;
   text-align: center;
-  width: 1863px;
+  width: 100%;
   background-color: #333;
   font-family: 'Roboto', Verdana, sans-serif;
   }
