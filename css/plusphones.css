@@ -19,12 +19,12 @@
 
   }
   #myVideoTwee{
-    width: 408px;
-    color: #4CAF50;
+    width: 414px;
+    background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
+    opacity: 0.5;
     height: 552px;
     margin-top: 24px;
-    background-color: #4CAF50;
-      border-style: solid;
+    border-radius: 10px;
   }
 
   /* Style the video: 100% width and height to cover the entire window */
@@ -36,7 +36,6 @@
     height: 220px;
     border-radius: 10px;
     background-color: #4CAF50;
-    border-width:
     border-style: solid;
   }
   #myBtn > img{
@@ -213,7 +212,7 @@ article > ul {
     clear: left;
     margin-top: 10px;
     width: 414px;
-    height: 439px;
+    height: 629px;
   }
 
   .lastarticle{
@@ -296,7 +295,7 @@ article > ul {
   footer > p {
     color: #f2f2f2;
     font-size: 11px;
-    margin-top: 640px;
+    margin-top: 670px;
     height: 30px;
     width: 374px;
     background-color: #333;
