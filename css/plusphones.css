@@ -23,15 +23,16 @@
     background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
     opacity: 0.5;
     height: 552px;
-    margin-top: 24px;
+    margin-top: -206px;
     border-radius: 10px;
   }
 
   /* Style the video: 100% width and height to cover the entire window */
   #myVideo {
-    position: absolute;
-    left: 7px;
-    top: 280px;
+    position: relative;
+    opacity: 0.8;
+    left: 3px;
+    top: -460px;
     width: 400px;
     height: 220px;
     border-radius: 10px;
@@ -184,7 +185,6 @@ article > ul {
   }
 
   .bigleft > ul {
-
     font-weight: 380;
   }
 
@@ -251,6 +251,7 @@ article > ul {
   #bigimage {
     height: 630px;
     width: 414px;
+    opacity: 0.8;
     background-image:url(http://i68.tinypic.com/2hnas8h.png);
     background-size: cover;
     background-position: center;
@@ -258,7 +259,7 @@ article > ul {
   }
 
 
-  #bigimage > p{
+  #nextnav > p{
     font-family: 'Roboto', 'Karla', serif;
     color: #00c9fd;
     background-color: #ffffff;

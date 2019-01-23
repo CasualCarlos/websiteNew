@@ -130,6 +130,81 @@ article > ul > li {
   }
 }
 
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  height: 560px;
+  width: 1080;
+  position: relative;
+}
+
+.text > #TwitchText{
+  font-family: 'Roboto', Verdana, sans-serif;
+  margin-right: 20px;
+  font-weight: bold;
+  color: purple;
+  border-radius: 5px;
+  border-width: thick;
+  border-style: solid;
+  text-decoration: none;
+}
+
+.text > #TwitchText:hover{
+  font-size: 105%;
+  border-color: #f2f2f2;
+  color: purple;
+}
+.text > #TwitterText{
+  font-family: 'Roboto', Verdana, sans-serif;
+  font-weight: bold;
+  color: #f2f2f2;
+  border-radius:5px;
+  border-color: #14171A;
+  border-width: thick;
+  border-style: solid;
+  text-decoration: none;
+}
+
+.text > #TwitterText:hover{
+  font-size: 105%;
+  border-color: #38A1F3;
+  color: purple;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #4CAF50;
+  overflow: hidden;
+  width: 1680px;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 73%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 main{
   width: 1200px;
   position: center;
@@ -263,16 +338,7 @@ article > p > a:hover {
     color: black;
 }
 
-#bigimage {
-  height: 550px;
-  width: 100%;
-  background-image:url(http://i68.tinypic.com/2hnas8h.png);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-#bigimage > p{
+#nextnav > p{
   font-family: 'Roboto', Verdana, sans-serif;
   color: #00c9fd;
   background-color: #ffffff;
@@ -281,7 +347,7 @@ article > p > a:hover {
   width: 150px;
   height: 11px;
   position: absolute;
-  bottom: 550px;
+  bottom: 715px;
   right: 355px;
 }
 
