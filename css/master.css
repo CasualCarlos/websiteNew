@@ -152,6 +152,7 @@ article > ul > li {
 }
 
 .text > #TwitchText > img{
+  background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
   margin-right: 20px;
   width: 80px;
   border-radius: 5px;
@@ -161,21 +162,20 @@ article > ul > li {
 
 .text > #TwitchText > img:hover{
   font-size: 105%;
-  border-color: #f2f2f2;
+  border-color: #6440a5;
   color: purple;
 }
-.text > #TwitterText{
-  font-family: 'Roboto', Verdana, sans-serif;
-  font-weight: bold;
-  color: #f2f2f2;
+.text > #TwitterText > img{
+  background-image: linear-gradient(to bottom right, #eadcdc, #cfc9c4);
+  width: 80px;
   border-radius:5px;
-  border-color: #14171A;
+  border-color: #187ebc;
   border-width: thick;
   border-style: solid;
   text-decoration: none;
 }
 
-.text > #TwitterText:hover{
+.text > #TwitterText > img:hover{
   font-size: 105%;
   border-color: #38A1F3;
   color: purple;
