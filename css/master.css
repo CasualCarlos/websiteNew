@@ -357,9 +357,9 @@ article > p > a:hover {
   font-size: 12pt;
   width: 150px;
   height: 11px;
-  position: absolute;
-  bottom: 826px;
-  right: 425px;
+  position: relative;
+  bottom: 611px;
+  left: 1288px;
 }
 
 article, #contact{
