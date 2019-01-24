@@ -151,18 +151,15 @@ article > ul > li {
   position: relative;
 }
 
-.text > #TwitchText{
-  font-family: 'Roboto', Verdana, sans-serif;
+.text > #TwitchText > img{
   margin-right: 20px;
-  font-weight: bold;
-  color: purple;
+  width: 80px;
   border-radius: 5px;
   border-width: thick;
   border-style: solid;
-  text-decoration: none;
 }
 
-.text > #TwitchText:hover{
+.text > #TwitchText > img:hover{
   font-size: 105%;
   border-color: #f2f2f2;
   color: purple;
