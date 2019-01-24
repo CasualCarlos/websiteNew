@@ -4,72 +4,91 @@
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/plusphones.css">
     <link rel="stylesheet" href="css/normaliphones.css">
+    <script src="js/main.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta name="description" content="thegraffe, fortnite pc's, carlos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Fortnite PC's are overpriced.</title>
   </head>
   <body>
-
-    <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-      } else {
-        document.getElementById("myBtn").style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-
-      function myFunction() {
-          var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-              x.className += " responsive";
-            } else {
-              x.className = "topnav";
-            }
-          }
-    </script>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="uparrow.png"></button>
+    <div class="mainwrapper">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-alt-circle-up"></i></button>
     <div id="headwrapper">
     <header>
 <h1>THE GRAFFE'S HOME BASE</h1>
     </header>
 <div class="topnav" id="myTopnav">
-  <a href="meer_info.html" class="active">News</a>
-  <a href="index.html">Home</a>
-  <a href="tijdlijn.html">Contact</a>
+  <a href="index.html" class="active"><i class="fas fa-home"></i></a>
+  <a href="meer_info.html"><i class="far fa-newspaper"></i></a>
+  <a href="tijdlijn.html"><i class="fas fa-address-book"></i></a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i></a>
 </div>
     </div>
-    <div id="bigimage">
+    <div class="container">
+      <img src="http://i68.tinypic.com/2hnas8h.png" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">
+          <a href="https://www.twitch.tv/thegraffe" id="TwitchText" target="_blank"><img src="twitch.png" alt="Twitch Logo"></a>
+          <a href="https://www.twitter.com/thegraffe_" id="TwitterText" target="_blank"><img src="twitter.png" alt="Twitter Logo"></a>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div id="nextnav">
+
           <p>Graffe's homepage.</p>
     </div>
+
     <main>
+
+      <video autoplay muted loop id="myVideo" >
+        <source src="Petersen_Automotive_Museum.mp4" type="video/mp4" >
+          Your browser does not support HTML5 video.
+      </video>
+      <video autoplay muted loop id="myVideoTwee">
+        <source src="cart.mp4" type="video/mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
       <article class="bigleft">
-        <h1>Meer informatie</h1>
+        <h1>Welcome</h1>
         <p>Thank you for visiting my website. By browsing through the variety of tabs provided to you, access to features such as:</p>
         <ul>
           <li>Direct social media links.</li>
           <li>Information about GRAFFE.</li>
         </ul>
       </article>
+
+      <article class="smallright">
+        <h1>Introduction</h1>
+
+        <p>My name is Carlos, I stream on&nbsp;<a href="https://www.twitch.tv/thegraffe" target="_blank">Twitch</a>. I was born in the Netherlands, and I started with streaming around August 2017.</p>
+        <p>On the left side of this tab you can see a video of me, sitting in a shopping cart.</p>
+
+      </article>
+
+      <article class="lastarticle">
+        <h1>Refresher</h1>
+        <p>If you want to know even more about the content that I put out then</p>
+        <p id="lastarticlep2">please watch the video below</p>
+        <iframe src="https://www.youtube.com/embed/cfTQpnveUgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Leave a like on the video if you enjoyed it. <br><br>There is so much more content on my <a href="https://www.youtube.com/c/notsocasualcarlos" target="_blank">Youtube</a>
+        <br><br>You can also navigate to my <a href="https://www.twitch.tv/thegraffe">Twitch</a> if you want to see live footage.</p>
+      </article>
+
     </main>
 
     <footer>
       <p>©2018 Carlos Miguel Publicatie zonder toestemming van de auteur is wettelijk verboden.</p>
     </footer>
+  </div>
+
   </body>
 </html>
